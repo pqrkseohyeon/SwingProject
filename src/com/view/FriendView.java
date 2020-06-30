@@ -174,6 +174,11 @@ public class FriendView extends JFrame {
 	private JButton getBtnView() {
 		if (btnView == null) {
 			btnView = new JButton("전체보기");
+			btnView.addActionListener(new ActionListener() {
+				public void actionPerformed(ActionEvent arg0) {
+					
+				}
+			});
 			btnView.setBounds(6, 234, 97, 23);
 		}
 		return btnView;
